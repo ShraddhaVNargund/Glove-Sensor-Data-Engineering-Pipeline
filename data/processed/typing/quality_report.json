@@ -1,0 +1,25 @@
+{
+  "source_file": "typing.csv",
+  "rows": 2243,
+  "columns": 19,
+  "missing_or_non_numeric_rows": 0,
+  "duplicate_sample_number_rows": 0,
+  "duplicate_timestamp_rows": 3,
+  "non_increasing_timestamp_rows": 0,
+  "large_timestamp_gap_rows": 0,
+  "flagged_rows": 3,
+  "constant_sensor_channels": [
+    "thumb (g)",
+    "ring (g)"
+  ],
+  "median_observed_interval_ms": 22.0,
+  "estimated_observed_rate_hz": 45.45,
+  "recording_duration_seconds": 49.385,
+  "notes": [
+    "A quality flag indicates something to review, not necessarily a sensor failure.",
+    "Constant sensor readings can be legitimate when a finger or sensor is inactive.",
+    "The observed rate is estimated from timestamp differences and may be limited by millisecond timestamp precision.",
+    "The sample-number column header is not treated as proof of the actual sampling rate.",
+    "Raw input is preserved unchanged."
+  ]
+}
