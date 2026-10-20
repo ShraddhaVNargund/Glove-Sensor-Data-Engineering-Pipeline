@@ -94,7 +94,6 @@ There are several ways I could build on this project in the future:
 - Add a camera and synchronize video with sensor timestamps to help verify when an action occurs.
 - Add more sensors across the palm and other parts of the glove to capture more detailed hand movements and contact.
 - Add more automated tests to check that the pipeline handles different data-quality issues correctly.
-- Improve how processed datasets are versioned and prepared for future use.
 
 ## How to Run the Project
 
