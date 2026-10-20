@@ -14,6 +14,7 @@ I wanted to build a simple pipeline that could check for these issues and help m
 
 ## Tools I Used
 
+- **ChatGPT** - to understand the hardware and build the glove prototype
 - **Python** – to build and run the pipeline
 - **Pandas** – to read, process and check the sensor data
 - **Matplotlib** – to create graphs and understand sensor readings over time
