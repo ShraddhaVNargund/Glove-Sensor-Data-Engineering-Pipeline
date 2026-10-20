@@ -55,6 +55,8 @@ I ran the pipeline on two recordings: one of typing and another of picking up a 
 - Three rows had duplicate timestamps.
 - The thumb and ring sensor readings remained constant throughout the recording.
 
+<img width="1400" height="700" alt="fingertip_readings" src="https://github.com/user-attachments/assets/b544c1a7-57c8-49ff-bb81-54e29444275e" />
+
 Since I mainly use my index, middle and ring fingers while typing, I wanted to investigate how finger activity affects the readings. Constant values do not automatically mean a sensor is faulty; they could also indicate that a finger was not applying pressure during the activity.
 
 **Book-picking recording**
@@ -62,6 +64,8 @@ Since I mainly use my index, middle and ring fingers while typing, I wanted to i
 - No missing or non-numeric values were found in the required columns.
 - Eight rows had duplicate timestamps.
 - One row was flagged for a large gap between timestamps.
+
+<img width="1400" height="700" alt="fingertip_readings" src="https://github.com/user-attachments/assets/4affd679-f859-4319-aebf-6795598a796a" />
 
 The graphs showed different sensor patterns during typing and book picking. This helped me explore how the readings change across activities. However, without video or other activity labels, I cannot confirm exactly what action caused a particular reading.
 
