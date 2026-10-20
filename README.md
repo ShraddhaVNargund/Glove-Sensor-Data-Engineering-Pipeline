@@ -1,4 +1,4 @@
-# Glove Sensor Data Engineering Pipeline
+# Glove Sensor Pipeline
 
 ## Overview
 
